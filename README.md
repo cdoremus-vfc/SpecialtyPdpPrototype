@@ -1,2 +1,0 @@
-# SpecialtyPdpPrototype
-Created with CodeSandbox

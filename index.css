@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  text-transform: uppercase;
+}
+#app {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  padding: 15px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 10;
+  border: 1px solid blue;
+  padding: 15px;
+  width: 80%;
+  height: 90%;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.thumbnail-container img {
+  margin-top: 20px;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 6;
+  border: 1px solid black;
+}
+
+.image-container img {
+  width: 50%;
+  padding: 25px;
+  border: 1px solid lightgray;
+}
+
+.form-container {
+  flex-grow: 6;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.tab-container {
+  flex-grow: 5;
+  width: 80%;
+  height: 350px;
+  padding: 15px;
+  border: 1px solid blue;
+}
+
+.tab-holder {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+tab {
+  flex-grow: 1;
+  border: 1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+.tab-content {
+  border: 1px solid black;
+  height: 85%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.supply-buttons {
+  display: flex;
+}
+
+.supply-buttons button {
+  flex-grow: 1;
+  margin: 5px;
+  width: 25px;
+}
+
+. .name-price {
+  border: 1px solid black;
+}
+
+.dosage {
+  border: 1px solid black;
+}
+
+.supply {
+  border: 1px solid black;
+}
+
+.flavor {
+  border: 1px solid black;
+}
+
+.flavors {
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.total-price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.promo-message {
+  color: blue;
+}
+
+.doses select {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 14x;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.add-to-cart div {
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  align-self: center;
+  margin-left: 50px;
+}
+
+.add-to-cart button {
+  margin: 10px 0;
+  height: 50px;
+  width: 50%;
+  padding: 5px;
+  background: blue;
+  color: white;
+  font-size: 16px;
+  border-radius: 0;
+}
